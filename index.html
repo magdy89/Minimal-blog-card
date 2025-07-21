@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      img {
+        width: 336px;
+        height: 152px;
+        border-radius: 5px;
+        margin: 16px 0;
+      }
+      .card {
+        border-radius: 10px;
+        width: 368px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+      }
+      .tag {
+        font-family: Sora, sans-serif;
+        font-size: 0.625rem;
+        background-color: #f2eafd;
+        color: #7c19ee;
+        padding: 4px 16px;
+        width: fit-content;
+        height: 20px;
+        border-radius: 11px;
+        font-weight: 700;
+      }
+      h3 {
+        font-size: 1.125rem;
+        font-family: Sora, sans-serif;
+        margin-top: 16px;
+        color: #20293a;
+        font-weight: 600;
+      }
+
+      p {
+        font-family: Sora, sans-serif;
+        margin-top: 6px;
+        font-size: 0.875rem;
+        color: #394150;
+        font-weight: 400;
+        line-height: 21px;
+      }
+
+      hr {
+        border: none;
+        background-color: #e5eaf0;
+        height: 1px;
+        margin-top: 20px;
+        margin-left: -16px;
+        width: 368px;
+      }
+
+      .author {
+        font-family: Sora, sans-serif;
+        font-size: 0.75rem;
+        margin: 20px 0;
+        color: #394150;
+        font-weight: 500;
+      }
+      .vertical-margin {
+        margin-left: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="vertical-margin">
+        <img src="./resources/Cactus.jpg" />
+        <div class="tag">Design</div>
+
+        <h3>Embracing Minimalism</h3>
+
+        <p>
+          From minimalist sculptures to minimalist paintings, this blog will
+          inspire you to appreciate the beauty that lies in simplicity.
+        </p>
+
+        <hr />
+        <div class="author">Annie Spratt</div>
+      </div>
+    </div>
+  </body>
+</html>
